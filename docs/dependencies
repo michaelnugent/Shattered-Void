@@ -1,0 +1,22 @@
+System:
+V8 - Google JS Engine
+MongoDB
+Python2.7
+
+Python Libs
+ujson - Ultrajson to speed up all the json we are doing
+PyV8 - Python V8 Wrapper
+gevent 1.0rc 
+pymongo
+mongoengine
+gevent-socketio
+Flask-Social (for Facebook Connect)
+pythonforfacebook (pip install http://github.com/pythonforfacebook/facebook-sdk/tarball/master)
+flask-mongoengine (pip install https://github.com/sbook/flask-mongoengine/tarball/master)
+telnetsrv (for telnet clients, SSL will be required)
+  - Paramiko for SSH clients :P
+
+
+#Arch linux broken gevent its greenlet reinstall it using the following
+gcc 4.8
+CFLAGS="-O8" on the pip install greenlet
