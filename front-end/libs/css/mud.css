@@ -1,3 +1,9 @@
-.r_canvas {
 
+.container {
+    width: 95%;
+    padding-left: 25px;
+}
+
+.inv {
+    height: 480px;
 }
